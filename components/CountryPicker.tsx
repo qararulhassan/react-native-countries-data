@@ -2,7 +2,7 @@ import React from "react";
 import { Animated, Easing, FlatList, Keyboard, Modal, Platform, Text, TextInput, TextStyle, View, ViewStyle } from "react-native";
 import { ButtonProps, CountryList, ListHeaderComponentProps, Style } from "../types/Types";
 import { useKeyboardStatus } from "../helpers/useKeyboardStatus";
-import { countriesRemover } from "../helpers/countriesRemover";
+import { countriesRemover } from "../index";
 import { Button } from "./Button";
 import { removeDiacritics } from "../helpers/diacriticsRemover";
 import { Dimensions } from "react-native";

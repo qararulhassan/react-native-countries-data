@@ -3,7 +3,7 @@ import { ButtonProps, CountryList, ListHeaderComponentProps, Style } from "../ty
 import { Button } from "./Button";
 import { FlatList, Keyboard } from "react-native";
 import { removeDiacritics } from "../helpers/diacriticsRemover";
-import { countriesRemover } from "../helpers/countriesRemover";
+import { countriesRemover } from "../index";
 
 
 interface CountriesListProps {

@@ -28,7 +28,7 @@ export const countryList: CountryList[] = [
 		calling_code: "+213",
 		currency_code: "DZD",
 		currency_name: "Algerian Dinar",
-		symbol: "دج",
+		symbol: "DZD",
 		emoji: "🇩🇿",
 	},
 	{
@@ -48,7 +48,7 @@ export const countryList: CountryList[] = [
 		calling_code: "+244",
 		currency_code: "AOA",
 		currency_name: "Angolan Kwanza",
-		symbol: "Kz",
+		symbol: "AOA",
 		emoji: "🇦🇴",
 	},
 	{
@@ -128,7 +128,7 @@ export const countryList: CountryList[] = [
 		calling_code: "+973",
 		currency_code: "BHD",
 		currency_name: "Bahraini Dinar",
-		symbol: "د.ب",
+		symbol: "BHD",
 		emoji: "🇧🇭",
 	},
 	{
@@ -147,7 +147,7 @@ export const countryList: CountryList[] = [
 		alpha3: "BRB",
 		calling_code: "+1246",
 		currency_code: "BBD",
-		currency_name: "Barbadian Dollar",
+		currency_name: "Barbados Dollar",
 		symbol: "$",
 		emoji: "🇧🇧",
 	},
@@ -158,7 +158,7 @@ export const countryList: CountryList[] = [
 		calling_code: "+375",
 		currency_code: "BYN",
 		currency_name: "Belarusian Ruble",
-		symbol: "Br",
+		symbol: "p.",
 		emoji: "🇧🇾",
 	},
 	{
@@ -178,7 +178,7 @@ export const countryList: CountryList[] = [
 		calling_code: "+501",
 		currency_code: "BZD",
 		currency_name: "Belize Dollar",
-		symbol: "$",
+		symbol: "BZ$",
 		emoji: "🇧🇿",
 	},
 	{
@@ -187,8 +187,8 @@ export const countryList: CountryList[] = [
 		alpha3: "BEN",
 		calling_code: "+229",
 		currency_code: "XOF",
-		currency_name: "West African CFA Franc",
-		symbol: "CFA",
+		currency_name: "CFA Franc BCEAO",
+		symbol: "XOF",
 		emoji: "🇧🇯",
 	},
 	{
@@ -1378,7 +1378,7 @@ export const countryList: CountryList[] = [
 		calling_code: "+974",
 		currency_code: "QAR",
 		currency_name: "Qatari Riyal",
-		symbol: "ر.ق",
+		symbol: "QAR",
 		emoji: "🇶🇦",
 	},
 	{
@@ -1478,7 +1478,7 @@ export const countryList: CountryList[] = [
 		calling_code: "+966",
 		currency_code: "SAR",
 		currency_name: "Saudi Riyal",
-		symbol: "ر.س",
+		symbol: "SAR",
 		emoji: "🇸🇦",
 	},
 	{
@@ -1688,7 +1688,7 @@ export const countryList: CountryList[] = [
 		calling_code: "+992",
 		currency_code: "TJS",
 		currency_name: "Tajikistani Somoni",
-		symbol: "ЅМ",
+		symbol: "SM",
 		emoji: "🇹🇯",
 	},
 	{
@@ -1758,7 +1758,7 @@ export const countryList: CountryList[] = [
 		calling_code: "+216",
 		currency_code: "TND",
 		currency_name: "Tunisian Dinar",
-		symbol: "د.ت",
+		symbol: "TND",
 		emoji: "🇹🇳",
 	},
 	{

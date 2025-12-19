@@ -122,7 +122,7 @@ export default function App() {
         show={show}
         // when picker button press you will get the country object with dial code
         pickerButtonOnPress={(item) => {
-          setCountryCode(item.country_code);
+          setCountryCode(item.alpha2);
           setShow(false);
         }}
         ListHeaderComponent={ListHeaderComponent}

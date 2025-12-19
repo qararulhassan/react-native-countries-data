@@ -3,9 +3,9 @@ import { Animated, Easing, FlatList, Keyboard, Modal, Platform, Text, TextInput,
 import { ButtonProps, CountryList, ListHeaderComponentProps, Style } from "./types/Types";
 import { Button } from "./components/Button";
 import { removeDiacritics } from "./helpers/diacriticsRemover";
-import { countriesRemover } from "./helpers/countriesRemover";
 import { useKeyboardStatus } from "./helpers/useKeyboardStatus";
 import { Dimensions } from "react-native";
+import {countryList} from "./constants/countryList";
 
 /**
  * Currency picker component
@@ -27,13 +27,12 @@ import { Dimensions } from "react-native";
  */
 
 /********************************************************* 
- ********************************************************* 
- 
-    COUNTRIES LIST
+********************************************************** 
 
- *********************************************************  
- ********************************************************* 
-*/
+COUNTRIES LIST
+
+**********************************************************  
+*********************************************************/
 
 interface CountriesListProps {
     type?: string,
@@ -140,13 +139,12 @@ export const CountriesList = ({
 };
 
 /********************************************************* 
- ********************************************************* 
+**********************************************************
  
-    COUNTRIES PICKER
+COUNTRIES PICKER
 
- *********************************************************  
- ********************************************************* 
-*/
+**********************************************************  
+*********************************************************/
 
 interface CountriesPickerProps {
     excludedCountries?: string[],
@@ -466,3 +464,33 @@ const styles: { [key in StyleKeys]: ViewStyle } = {
         marginVertical: 5,
     },
 };
+
+/********************************************************* 
+**********************************************************
+ 
+COUNTRIES REMOVER
+
+**********************************************************  
+*********************************************************/
+
+export const countriesRemover = (excludedCountries: string[]|undefined): CountryList[] => {
+    return countryList?.filter(country => {
+        return !(excludedCountries?.find(short => country?.alpha2 === short?.toUpperCase()));
+    });
+};
+
+/********************************************************* 
+**********************************************************
+ 
+COUNTRIES PICKER BY ALPHA2
+
+**********************************************************  
+*********************************************************/
+
+export const countriesFilter: Record<string, CountryList> = new Proxy({},
+    {
+        get(_, alpha2: string) {
+            return countryList.find(country => country.alpha2 === alpha2.toUpperCase());
+        },
+    }
+);

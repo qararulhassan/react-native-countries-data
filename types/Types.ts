@@ -24,6 +24,10 @@ export interface CountryList {
     emoji: string,
 }
 
+export interface CountryPicker {
+    alpha2: string
+}
+
 export interface Style {
     backdrop?: ViewStyle,
     modal?: ViewStyle,
