@@ -182,4 +182,4 @@ If you find this package useful, please consider giving it a ⭐ on GitHub.It he
 
 ### 📄 **License**
 MIT License<br/>
-© react-native-country-data
+©react-native-country-data
