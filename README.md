@@ -1,8 +1,24 @@
-🌍 **react-native-country-data**A lightweight and customizable **Country Picker / Country List** for **React Native & Expo** with search functionality and country lookup by **Alpha-2 codes**.
+🌍 **react-native-country-data**
 
-✨ Emoji flags ✨ Searchable country list ✨ Alpha-2 & Alpha-3 country codes ✨ Calling codes & currency info ✨ Fully customizable styles ✨ Expo & React Native compatible 📦 **Installation**
+A lightweight and customizable **Country Picker / Country List** for **React Native & Expo** with search functionality and country lookup by **Alpha-2 codes**.
 
-**Expo**expo install react-native-country-data**NPM**npm install react-native-country-data**Yarn**yarn add react-native-country-data
+✨ Emoji flags 
+✨ Searchable country list 
+✨ Alpha-2 & Alpha-3 country codes 
+✨ Calling codes & currency info 
+✨ Fully customizable styles 
+✨ Expo & React Native compatible 
+
+📦 **Installation**
+
+**Expo**
+==expo install react-native-country-data==
+
+**NPM**
+==npm install react-native-country-data==
+
+**Yarn**
+==yarn add react-native-country-data==
 
 🚀 **Features**🔍 Search countries by name🏳️ Country flags using emojis🌐 Alpha-2 (US) & Alpha-3 (USA) codes☎️ International calling codes💰 Currency details🎨 Fully customizable UI styles⚡ Lightweight & fast📱 Works seamlessly with Expo & React Native
 
