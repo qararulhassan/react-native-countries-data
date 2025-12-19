@@ -184,8 +184,11 @@ You can customize the following styles:
 <br />
 
 ### 🤝 **Contributing**
-Contributions are welcome!<br />
-Fork the repositoryCreate a new branchCommit your changesOpen a Pull Request
++ Contributions are welcome!<br />
++ Fork the repository
++ Create a new branch
++ Commit your changes
++ Open a Pull Request
 
 <br />
 
