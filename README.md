@@ -118,16 +118,12 @@ import { CountriesPicker } from "react-native-country-data";
 🚨 **CurrencyList**
 <br />Displays a searchable list of currencies.
 ```
-bash
-
 <CountriesList
     type="currency"
 />
 ```
 **or**
 ```
-bash
-
 <CountriesPicker
     type="currency"
 />
